@@ -6,33 +6,32 @@
 #    By: gcefalo <marvin@42.fr>                     +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2021/01/25 12:53:31 by gcefalo           #+#    #+#              #
-#    Updated: 2021/01/25 12:53:42 by gcefalo          ###   ########.fr        #
+#    Updated: 2021/02/03 11:46:30 by gcefalo          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 NAME =		libftprintf.a
 
-SRCS =
+SRCS =		$(wildcard *.c) $(wildcard libft/*.c) $(wildcard utils/*.c)
 OBJS =		$(SRCS:.c=.o)
 
-BSRCS =
+BSRCS =		$(wildcard bonus/*.c)
 BOBJS =		$(BSRCS:.c=.o)
 
 CFLAGS =	-Wall -Wextra -Werror
 
 %.o:		%.c
-			gcc -c $(CFLAGS) $<
+			gcc -c $(CFLAGS) $< -o $@
 
-$(NAME):	$(OBJS)
-			ar rcs $(NAME) $(OBJS)
+$(NAME):	$(OBJS) $(BOBJS)
+			ar rcs $(NAME) $(OBJS) $(BOBJS)
 
 all:		$(NAME)
 
-bonus:		$(BOBJS) $(NAME)
-			ar rcs $(NAME) $(BOBJS)
+bonus:		$(NAME)
 
 clean:
-			rm -f $(OBJS) $(BOBJS)
+			rm -f $(OBJS) $(BOBJS) *.o
 
 fclean:		clean
 			rm -f $(NAME)
