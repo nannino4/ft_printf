@@ -6,11 +6,11 @@
 /*   By: gcefalo <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/02/03 14:42:09 by gcefalo           #+#    #+#             */
-/*   Updated: 2021/02/03 14:42:12 by gcefalo          ###   ########.fr       */
+/*   Updated: 2021/02/03 16:21:31 by gcefalo          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../ft_printf.h"
+#include "ft_printf.h"
 
 void	set_hash(const char **in, t_flags *flags)
 {

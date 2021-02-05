@@ -6,11 +6,11 @@
 /*   By: gcefalo <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/02/03 14:42:54 by gcefalo           #+#    #+#             */
-/*   Updated: 2021/02/03 14:42:54 by gcefalo          ###   ########.fr       */
+/*   Updated: 2021/02/03 16:20:16 by gcefalo          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../ft_printf.h"
+#include "ft_printf.h"
 
 int		printspaces(int len, ssize_t spacenum)
 {

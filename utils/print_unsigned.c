@@ -6,11 +6,11 @@
 /*   By: gcefalo <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/02/03 14:42:57 by gcefalo           #+#    #+#             */
-/*   Updated: 2021/02/03 14:42:57 by gcefalo          ###   ########.fr       */
+/*   Updated: 2021/02/03 16:20:23 by gcefalo          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../ft_printf.h"
+#include "ft_printf.h"
 
 int		ft_ulen(unsigned int n, t_flags flags)
 {

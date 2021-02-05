@@ -6,11 +6,11 @@
 /*   By: gcefalo <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/02/03 14:42:27 by gcefalo           #+#    #+#             */
-/*   Updated: 2021/02/03 14:42:28 by gcefalo          ###   ########.fr       */
+/*   Updated: 2021/02/03 16:21:03 by gcefalo          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../ft_printf.h"
+#include "ft_printf.h"
 
 void	divide(int nb)
 {

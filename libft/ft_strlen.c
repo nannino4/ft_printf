@@ -6,11 +6,11 @@
 /*   By: gcefalo <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/02/03 14:42:31 by gcefalo           #+#    #+#             */
-/*   Updated: 2021/02/03 14:43:37 by gcefalo          ###   ########.fr       */
+/*   Updated: 2021/02/03 16:21:09 by gcefalo          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../ft_printf.h"
+#include "ft_printf.h"
 
 size_t	ft_strlen(char *s)
 {

@@ -6,7 +6,7 @@
 #    By: gcefalo <marvin@42.fr>                     +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2021/01/25 12:53:31 by gcefalo           #+#    #+#              #
-#    Updated: 2021/02/03 11:46:30 by gcefalo          ###   ########.fr        #
+#    Updated: 2021/02/03 16:16:11 by gcefalo          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -18,7 +18,7 @@ OBJS =		$(SRCS:.c=.o)
 BSRCS =		$(wildcard bonus/*.c)
 BOBJS =		$(BSRCS:.c=.o)
 
-CFLAGS =	-Wall -Wextra -Werror
+CFLAGS =	-Wall -Wextra -Werror -I.
 
 %.o:		%.c
 			gcc -c $(CFLAGS) $< -o $@

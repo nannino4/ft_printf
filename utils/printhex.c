@@ -6,11 +6,11 @@
 /*   By: gcefalo <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/02/03 14:43:07 by gcefalo           #+#    #+#             */
-/*   Updated: 2021/02/03 14:43:08 by gcefalo          ###   ########.fr       */
+/*   Updated: 2021/02/03 16:20:37 by gcefalo          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../ft_printf.h"
+#include "ft_printf.h"
 
 int		checkflags_hex(t_flags *flags, int numlen, int n_char, unsigned int val)
 {

@@ -6,11 +6,11 @@
 /*   By: gcefalo <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/02/03 14:43:10 by gcefalo           #+#    #+#             */
-/*   Updated: 2021/02/03 14:43:11 by gcefalo          ###   ########.fr       */
+/*   Updated: 2021/02/03 16:20:45 by gcefalo          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../ft_printf.h"
+#include "ft_printf.h"
 
 void		set_minus(const char **in, t_flags *flags)
 {

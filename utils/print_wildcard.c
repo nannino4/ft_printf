@@ -6,11 +6,11 @@
 /*   By: gcefalo <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/02/03 14:43:03 by gcefalo           #+#    #+#             */
-/*   Updated: 2021/02/03 14:43:04 by gcefalo          ###   ########.fr       */
+/*   Updated: 2021/02/03 16:20:30 by gcefalo          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../ft_printf.h"
+#include "ft_printf.h"
 
 void	print_wildcard(t_flags flags, int *n_char)
 {

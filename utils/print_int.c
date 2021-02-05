@@ -6,11 +6,11 @@
 /*   By: gcefalo <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/02/03 14:42:45 by gcefalo           #+#    #+#             */
-/*   Updated: 2021/02/03 14:42:46 by gcefalo          ###   ########.fr       */
+/*   Updated: 2021/02/03 16:20:02 by gcefalo          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../ft_printf.h"
+#include "ft_printf.h"
 
 void	print_intsign(int *n_char, t_flags flags, int minus)
 {

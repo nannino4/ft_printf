@@ -6,11 +6,11 @@
 /*   By: gcefalo <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/02/03 14:42:49 by gcefalo           #+#    #+#             */
-/*   Updated: 2021/02/03 14:42:49 by gcefalo          ###   ########.fr       */
+/*   Updated: 2021/02/03 16:20:10 by gcefalo          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../ft_printf.h"
+#include "ft_printf.h"
 
 static int	checkflags(t_flags *flags, int numlen, int n_char)
 {
